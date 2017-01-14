@@ -1,0 +1,19 @@
+---
+layout: page
+title: Matadoer - Blog
+header: Posts By Category
+nav : blog
+group: navigation
+tagline: <h1><br />Blog</h1>
+header: assets/themes/bootstrap/images/header1
+---
+{% include JB/setup %}
+
+<div class="posts">
+{% for post in site.posts %}
+    {% if post.categories contains 'blog' %}
+        <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }} - {{ post.date | date_to_string }}</a></h3>
+    {% endif %}
+{% endfor %}
+</div>
+

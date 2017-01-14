@@ -1,0 +1,76 @@
+---
+layout: page
+title: Matadoer - Services
+tagline: <h1>Services</h1>full stack development, consulting, responsive design, security, scalability
+nav : services
+group : navigation
+header: assets/themes/bootstrap/images/header1
+---
+{% include JB/setup %}
+
+<center><h3>full stack services</h3></center>
+<br />
+<h4>administration services</h4>
+<br/>
+<img src="assets/themes/bootstrap/images/linux.png" class="serviceImage"></img>
+<b>Linux Administration</b>
+<p>linux administrations service, bash scripts<br /><br /></p>
+<br />
+<img src="assets/themes/bootstrap/images/mongo.png" class="serviceImage"></img>
+<b>Database Administration</b>
+<p>MySQL, MongoDB, PostgreSQL, Redis, InfluxDB<br /><br /></p>
+<br />
+<h4>backend services</h4>
+<br />
+<br />
+<img src="assets/themes/bootstrap/images/elixir.png" class="serviceImage"></img>
+<b>Pheonix APIs</b>
+<p>a backend service or API using JSON / WebSockets. <br />Phoenix is a framework for Elixir, and used is for running distributed and fault-tolerant systems.</p>
+<br />
+<img src="assets/themes/bootstrap/images/ruby.png" class="serviceImage"></img>
+<b>Ruby on Rails APIs</b>
+<p>a backend API using JSON / WebSockets. <br />Ruby on Rails allows for rapid agile development and prototyping, and scales well for mobile and web users.</p>
+<br />
+<img src="assets/themes/bootstrap/images/node.png" class="serviceImage"></img>
+<b>NodeJS APIs</b>
+<p>a backend service or JSON / WebSocket API. <br />NodeJS is fast, scalable and well suited for handling concurrent connections with asyncronous evented I/O.</p>
+<br />
+<img src="assets/themes/bootstrap/images/python.png" class="serviceImage"></img>
+<b>Flask APIs</b>
+<p>a backend API using JSON / WebSockets. <br />Flask is a minimalist, highly portable and fast micro web framework for Python.</p>
+<br />
+<img src="assets/themes/bootstrap/images/slim.png" class="serviceImage"></img>
+<b>Slim APIs</b>
+<p>a backend API using JSON / WebSockets. <br />Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs.</p>
+<br />
+
+<h4>frontend services</h4>
+<br />
+<img src="assets/themes/bootstrap/images/html5.png" class="serviceImage"></img>
+<b>Responsive Design</b>
+<p>a responsive html5 & css3 mobile-first design<br /><br /></p>
+<br />
+<img src="assets/themes/bootstrap/images/jekyll.png" class="serviceImage"></img>
+<b>Static Website</b>
+<p>a static front end built with Jekyll<br />
+this site was built with Jekyll</p>
+<br />
+<img src="assets/themes/bootstrap/images/reactjs.png" class="serviceImage"></img>
+<b>React.js Application</b>
+<p>a front end web application built using React.js.<br /><br /></p>
+<br />
+<img src="assets/themes/bootstrap/images/electron.png" class="serviceImage"></img>
+<b>Desktop Application</b>
+<p>an html5/css3/node cross-platform desktop app built with Electron.<br />
+	Linux, OS X, Windows<br /><br /></p>
+<img src="assets/themes/bootstrap/images/phonegap.png" class="serviceImage"></img>
+<b>Mobile Application</b>
+<p>an html5/css3/node cross-platform mobile app built with PhoneGap.<br />
+	BlackBerry, Android, iOS, Windows Phone, Ubuntu & Firefox OS<br /><br /></p>
+<div class="posts">
+{% for post in site.posts %}
+    {% if post.categories contains 'portfolio' %}
+        <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }} - {{ post.date | date_to_string }}</a></h3>
+    {% endif %}
+{% endfor %}
+</div>
