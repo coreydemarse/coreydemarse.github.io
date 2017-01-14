@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Matadoer - Home
-tagline: <b>need a ninja?<br /><br />get in touch</b><br /><a id="hire_link"><div class="btn btn-primary btn-lg"><b>business@matadoer.io</b></div></a>
+title: Corey DeMarse - Home
+tagline: <b>need a ninja?<br /><br />get in touch</b><br /><a id="hire_link"><div class="btn btn-primary btn-lg"><b>coreydemarse@protonmail.ch</b></div></a>
 header: assets/themes/bootstrap/images/header1
 ---
 {% include JB/setup %}
