@@ -29,6 +29,7 @@ a:active, a:focus {
 
 .navbar-default .navbar-nav > .active > a:hover {
 	color: #fff;
+	background-color: rgba(0,0,0,0);
 }
 
 .header-text {
@@ -104,6 +105,7 @@ z-index: 1;
 
 .navbar-default .navbar-nav > .active > a {
 	color: #fff;
+	background-color: rgba(0,0,0,0);
 }
 
 .navbar-default .navbar-nav > li > a {
