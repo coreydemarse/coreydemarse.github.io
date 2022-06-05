@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.7bdf310b.js";const i='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"cool-software.md"}',a={name:"cool-software.md"};function r(c,s,n,_,f,p){return o(),t("div")}var l=e(a,[["render",r]]);export{i as __pageData,l as default};
