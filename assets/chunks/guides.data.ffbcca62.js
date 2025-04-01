@@ -1,1 +1,0 @@
-const e=JSON.parse('[{"title":"how to node","href":"/guides/how-to-node.html","date":{"time":1680177600000,"string":"March 30, 2023"},"excerpt":"\\r\\nAn example of how to node\\r\\n\\r\\n"}]');export{e as d};

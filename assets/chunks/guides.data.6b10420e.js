@@ -1,0 +1,1 @@
+const e=JSON.parse('[{"title":"how to bun","href":"/guides/how-to-node.html","date":{"time":1702036800000,"string":"December 8, 2023"},"excerpt":"\\r\\nan example of how to use Bun, a javascript all-in-one runtime\\r\\n\\r\\n"}]');export{e as d};
